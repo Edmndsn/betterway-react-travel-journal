@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+Body {
+  margin: 0;
+}
+
+nav {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav--journalLogo {
+  padding-right: 10px;
+}
+
+.nav--title {
+  font-weight: 500;
+  font-size: 14.4608px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-left: 36px;
+}
+
+.card--image {
+  height: 168px;
+  width: 126px;
+  object-fit: cover;
+  border-radius: 5%;
+  margin-top: 30px;
+}
+
+.card--text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 15px;
+  max-width: 320px;
+}
+
+.card--image-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: -30px;
+}
+
+.card--location {
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.card--googlemaps-link {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+
+.card--desination {
+  font-weight: 700;
+  font-size: 25px;
+  color: #2b283a;
+}
+
+.card--visit-dates {
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2b283a;
+}
+
+.card--description {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2b283a;
+}
